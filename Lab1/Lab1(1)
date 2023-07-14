@@ -1,0 +1,18 @@
+using System;
+namespace Lab_1
+{
+    public class Name
+    {
+        public static void Main(string[] args)
+        {
+
+            Console.WriteLine("Name = Archi");
+            Console.WriteLine("Address = Suvernbhoomi");
+            Console.WriteLine("Number = 54511582852");
+            Console.WriteLine("City = Rajkot");
+
+
+
+        }
+    }
+}
