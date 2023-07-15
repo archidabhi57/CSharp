@@ -1,0 +1,24 @@
+using System;
+
+public class Area
+{
+    public double Area1(double x)
+    {
+        return x * x;
+    }
+
+    public double Area1(double l, double b)
+    {
+        return l * b;
+    }
+}
+
+public class Program
+{
+    public static void Main()
+    {
+        Area area = new Area();
+        Console.WriteLine(area.Area1(10));
+        Console.WriteLine(area.Area1(3, 4));
+    }
+}
